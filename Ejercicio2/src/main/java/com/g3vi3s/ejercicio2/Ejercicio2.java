@@ -1,17 +1,18 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
- */
-
+2.- Desarrollar un programa que permita ingresar los lados de un triángulo e implemente los siguientes métodos:
+• Inicializar los atributos
+• Imprimir el valor del lado mayor
+• Un método para mostrar un mensaje si es equilátero o no.
+En la función del main se debe de declarar un objeto que va a ejecutar las tres funciones de la clase.
+*/
 package com.g3vi3s.ejercicio2;
-
-/**
- *
- * @author gerardo
- */
+import java.util.Scanner;
 public class Ejercicio2 {
-
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        int opt = 0;
+        Scanner entrada = new Scanner(System.in);
+        for(int i=0; i<2; i++){
+            System.out.print("Dame una opcion: ");
+        }
     }
 }
