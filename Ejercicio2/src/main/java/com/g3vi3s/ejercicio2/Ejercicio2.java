@@ -11,8 +11,23 @@ public class Ejercicio2 {
     public static void main(String[] args) {
         int opt = 0;
         Scanner entrada = new Scanner(System.in);
-        for(int i=0; i<2; i++){
-            System.out.print("Dame una opcion: ");
-        }
+        do{
+            System.out.print("Dame una opcion: \n1.- Agregar la logitud de los lados\n2.- Cual de los lados es mayor? \n3.- Es equilatero?\n4.-Salir");
+            opt=entrada.nextInt();
+            
+            if(opt == 1){
+                
+            }
+            else if(opt == 2){
+            
+            }
+            else if(opt == 3){
+                
+            }
+            else{
+                System.out.println("GRACIAS POR USAR ESTE MINI PROGRAMA");
+            }
+            
+        }while(opt!=4);
     }
 }
