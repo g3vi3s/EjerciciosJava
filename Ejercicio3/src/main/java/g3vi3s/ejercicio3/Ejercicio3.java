@@ -20,6 +20,6 @@ package g3vi3s.ejercicio3;
 public class Ejercicio3 {
 
     public static void main(String[] args) {
-        
+        System.out.println("Este es el tercer ejercicio");
     }
 }
