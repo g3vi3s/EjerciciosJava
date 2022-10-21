@@ -23,7 +23,7 @@ public class Ejercicio3 {
         
         Alumno al = new Alumno();
         
-        System.out.println("Bienvenido "+al.nombre);
+        System.out.println("Bienvenido "+al.getNombre());
         
     }
 }
