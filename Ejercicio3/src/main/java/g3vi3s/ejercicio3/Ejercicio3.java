@@ -43,7 +43,7 @@ public class Ejercicio3 {
             System.out.println(nombre + " tiene "+ edad + " años por lo tanto es menor de edad");
         }
         
-        // Comparamos la calificacion para saber si esta aprobado o reprobado
+        // Comparamos la calificacion para saber si esta aprobado o reprobado 
         if(calif >= 8 && calif <=10){
             System.out.println("El alumno " + nombre + " Esta Aprobado");
         }
