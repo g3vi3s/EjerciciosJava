@@ -20,13 +20,38 @@ package g3vi3s.ejercicio3;
 public class Ejercicio3 {
 
     public static void main(String[] args) {
+        // Variables a utilizar en la clase main
+        int edad, calif;
+        String nombre;
         
+        // instanciacion la clase alumno utilizando el primer constructor
         Alumno alu = new Alumno();
+        nombre=alu.getNombre();
+        System.out.println("Bienvenido "+nombre);
         
-        Alumno EdadCalif = new Alumno(30, 7);
+        // instanciacion la clase alumno utilizando el segundo constructor
+        Alumno EdadCalif = new Alumno(31, 10);
         
+        edad= EdadCalif.getEdad();
+        calif = EdadCalif.getCalificacion();
         
-        System.out.println("Bienvenido "+alu.getNombre());
+        // Comparamos si es mayor de edad o no
+        if(edad >=18){
+            System.out.println(nombre + " tiene "+ edad + " años por lo tanto es mayor de edad");
+        }
+        else{
+            System.out.println(nombre + " tiene "+ edad + " años por lo tanto es menor de edad");
+        }
         
+        // Comparamos la calificacion para saber si esta aprobado o reprobado
+        if(calif >= 8 && calif <=10){
+            System.out.println("El alumno " + nombre + " Esta Aprobado");
+        }
+        else if(calif < 8){
+            System.out.println("El alumno " + nombre + " Esta Reprobado");
+        }
+        else{
+            System.out.println("ERROR Calificacion no aceptada");
+        }
     }
 }

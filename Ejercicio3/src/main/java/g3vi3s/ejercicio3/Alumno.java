@@ -9,8 +9,9 @@ public class Alumno {
     }
     
     public Alumno(int edad, int calificacion){
-        this.edad = edad;
-        this.calificacion = calificacion;
+        setedad(edad);
+        setcalificacion(calificacion);
+        
     }
     
     public String getNombre(){
@@ -19,6 +20,22 @@ public class Alumno {
     
     public void setNombre(){
         nombre = "Gerardo Villicaña Espinoza";
+    }
+    
+    public void setedad(int edad){
+        this.edad = edad;
+    }
+    
+    public void setcalificacion(int calificacion){
+        this.calificacion = calificacion;
+    }
+    
+    public int getEdad(){
+        return edad;
+    }
+    
+    public int getCalificacion(){
+        return calificacion;
     }
     
 }
