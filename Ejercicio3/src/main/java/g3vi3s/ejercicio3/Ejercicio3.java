@@ -21,9 +21,12 @@ public class Ejercicio3 {
 
     public static void main(String[] args) {
         
-        Alumno al = new Alumno();
+        Alumno alu = new Alumno();
         
-        System.out.println("Bienvenido "+al.getNombre());
+        Alumno EdadCalif = new Alumno(30, 7);
+        
+        
+        System.out.println("Bienvenido "+alu.getNombre());
         
     }
 }
